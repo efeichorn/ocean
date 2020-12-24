@@ -60,7 +60,7 @@ a:hover
   top: 20px;
   left: 0;
   overflow-x: hidden;
-  padding-top: 20px;'
+  padding-top: 200px;'
 		     font-family: narly-outline, sans-serif;
 		  
 
@@ -82,8 +82,10 @@ font-weight: 400;
 
 }
 	    img{
-		       max-width: 100%;
+		       max-width: 50%;
   height: auto;
+		    margin-lelet:auto;
+		    margin-right:auto;
 		    
 }
 
