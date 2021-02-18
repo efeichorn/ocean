@@ -36,8 +36,6 @@ font-weight: 400;
 }
 	    
 
-
-	    
 	    a {
     color: 	#000000;
     text-decoration: none;
@@ -52,45 +50,7 @@ a:hover
 	    
 	
 	    
-	    .sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 20px;
-  left: 0;
-  overflow-x: hidden;
-  padding-top: 200px;'
-		     font-family: narly-outline, sans-serif;
-		  
 
-font-weight: 400;
-
-		   		    height: 200px;
- width: 400px;
- font-size:40;
-		    
-		    
-}
-	    .main{
-		  
-		     margin-left: 600px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 0px
-	  padding-left:60px;
-		    padding-bottom:50px;
-
-}
 	
 		    
-
-
-
-
-.rect{
-	fill:rgb(255,255,255);
-	stroke-width:3;
-	stroke:rgb(255,255,255);
-	left:200px;
-}
 	
