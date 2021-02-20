@@ -20,7 +20,7 @@ function preload(){
 
 function setup(){
   
-  createCanvas(250, windowHeight,WEBGL);
+  createCanvas(windowWidth, windowHeight,WEBGL);
    
   cols=w/scl;
    rows=h/scl;
