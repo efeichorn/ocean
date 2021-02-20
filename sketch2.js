@@ -7,6 +7,7 @@ let img;
 let img2;
 
 var flying=0;
+var canvas;
 
 var terrain = [];
 
@@ -20,7 +21,10 @@ function preload(){
 
 function setup(){
   
-  createCanvas(250, windowHeight,WEBGL);
+  canvas=createCanvas(250, windowHeight,WEBGL);
+   
+    canvas.position(0,0);
+  canvas.style ('z-index', '-1');
    
   cols=w/scl;
    rows=h/scl;
