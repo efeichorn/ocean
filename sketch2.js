@@ -21,7 +21,7 @@ function preload(){
 
 function setup(){
   
-  canvas=createCanvas(250, windowHeight,WEBGL);
+  canvas=createCanvas(300, windowHeight,WEBGL);
    
     canvas.position(0,0);
   canvas.style ('z-index', '-1');
