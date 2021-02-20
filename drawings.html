@@ -61,6 +61,44 @@ margin-top:40px;
   margin-left: auto;
   margin-right: auto;
 }
+	* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
 	
 </style>
 </head>
@@ -78,7 +116,25 @@ margin-top:40px;
 </div>
 
 <div class="main">
-	<img src="day dreamer.jpg" alt="day dreamer" style="width:700px;height:650px;"">
+	<p>Slideshow 1:</p>
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="day dreamer.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="#img_snow_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="#img_mountains_wide.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+	
   
 
  
